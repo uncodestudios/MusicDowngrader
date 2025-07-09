@@ -7,7 +7,7 @@ local audioSource = nil
 local favClip = nil
 
 function Start()
-    EObject:LoadAudio("Sounds/bad_tag_xmas.wav", "onAudioLoaded", "TemplateExtension")
+    EObject:LoadAudio("Sounds/bad_tag_xmas.wav", "onAudioLoaded", "MusicDowngrader")
 end
 
 function onAudioLoaded(audioClip)
