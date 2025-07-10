@@ -30,7 +30,6 @@ function onAudioLoaded(audioClip)
 
     audioSource.Stop()
     favClip = audioClip
-    audioSource.volume = 1
     audioSource.clip = audioClip
     audioSource.Play()
 end
